@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Simple Calculator</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main class="main">
+            <div class="calculator-container">
+
+                <header class="calculator-header">
+                    <h1 class="hero-head">calc</h1>
+                    <div class="theme-toggler">
+                        <span class="hero-lead">theme</span>
+                        <label class="toggler">
+                            <input type="checkbox" name="toggle-switch" class="toggle-switch" id="toggle-switch" />
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </h2>
+                </header>
+                <section class="calculator-body">
+                    <article class="calculator-screen">
+                        <div class="div-display"></div>
+                        <div class="div-result"></div>
+                    </article>
+                    <article class="calculator-buttons">
+                        <div class="grid-container">
+                            <button class="btn btn-num btn-seven">7</button>
+                            <button class="btn btn-num btn-eight">8</button>
+                            <button class="btn btn-num btn-nine">9</button>
+                            <button class="btn btn-del">del</button>
+                            <button class="btn btn-num btn-four">4</button>
+                            <button class="btn btn-num btn-five">5</button>
+                            <button class="btn btn-num btn-six">6</button>
+                            <button class="btn btn-add btn-op">+</button>
+                            <button class="btn btn-num btn-one">1</button>
+                            <button class="btn btn-num btn-two">2</button>
+                            <button class="btn btn-num btn-three">3</button>
+                            <button class="btn btn-num btn-sub btn-op">-</button>
+                            <button class="btn btn-num btn-period">.</button>
+                            <button class="btn btn-num btn-zero">0</button>
+                            <button class="btn btn-divide btn-op">/</button>
+                            <button class="btn btn-multiply btn-op">*</button>
+                        </div>
+                        <div class="flex-container">
+                            <button class="btn btn-light btn-reset">reset</button>
+                            <button class="btn btn-light btn-op btn-equals">=</button>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </main>
+        <script src="./main.js"></script>
+    </body>
+</html>
